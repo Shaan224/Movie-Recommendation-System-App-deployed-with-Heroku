@@ -3,7 +3,7 @@
 
 ## Introduction
 
-In this repo I have built a Content Based Movie Recommendation System and deployed it on Heroku.
+In this repo, I have built a Content-Based Movie Recommendation System and deployed it on Heroku.
 
 ## Datasets 
 * [**IMDB 5000 Movie Dataset**](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
@@ -16,10 +16,10 @@ The details of the movies(title, genre, runtime, rating, poster, etc) are fetche
 
 Movie recommendations are made on the basis of similar Actors, Director(s), Language, Genres and Plot Keywords.
 
-Similarity score is value between 0 to 1 which determines how similar two objects are on a scale of 0 to 1. Higher the score -> Higher the similarity between the objects.
+The similarity score is a value between 0 to 1 which determine how similar two objects are on a scale of 0 to 1. Higher the score -> Higher the similarity between the objects.
 There are many ways to calculate the similarity scores for example - Euclidean Distance, Manhattan Distance, Cosine Similarity etc.
 
-In this model we are using Cosine Similarity to recommmend the Top 10 movies based on their similarity scores.
+In this model we are using Cosine Similarity to recommend the Top 10 movies based on their similarity scores.
 
 After building the model I deployed this model on **Heroku** using **Flask**
 
